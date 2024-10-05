@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Forca.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <ScrollView>
+        <FlexLayout
+            AlignContent="Center"
+            Direction="Column"
+            JustifyContent="SpaceAround">
+            <Button
+                x:Name="btnReiniciar"
+                Clicked="btnReiniciar_Clicked"
+                Text="Reiniciar" />
+            <Image
+                x:Name="imgEnforcado"
+                Aspect="AspectFit"
+                HeightRequest="200"
+                SemanticProperties.Description="dot net bot in a race car number eight"
+                Source="forca1.png" />
+
+            <Label
+                x:Name="lblTips"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <Label
+                x:Name="lblText"
+                CharacterSpacing="5"
+                FontSize="36"
+                HorizontalOptions="Center" />
+
+            <VerticalStackLayout x:Name="vslKeyboardContainer" Spacing="3">
+                <HorizontalStackLayout HorizontalOptions="Center" Spacing="3">
+                    <Button
+                        Clicked="OnLetterClick"
+                        HorizontalOptions="Center"
+                        Text="Q" />
+                    <Button
+                        Clicked="OnLetterClick"
+                        HorizontalOptions="Center"
+                        Text="W" />
+                    <Button
+                        Clicked="OnLetterClick"
+                        HorizontalOptions="Center"
+                        Text="E" />
+                    <Button
+                        Clicked="OnLetterClick"
+                        HorizontalOptions="Center"
+                        Text="R" />
+                    <Button
+                        Clicked="OnLetterClick"
+                        HorizontalOptions="Center"
+                        Text="T" />
+                    <Button
+                        Clicked="OnLetterClick"
+                        HorizontalOptions="Center"
+                        Text="Y" />
+                    <Button
+                        Clicked="OnLetterClick"
+                        HorizontalOptions="Center"
+                        Text="U" />
+                    <Button
+                        Clicked="OnLetterClick"
+                        HorizontalOptions="Center"
+                        Text="I" />
+                    <Button
+                        Clicked="OnLetterClick"
+                        HorizontalOptions="Center"
+                        Text="O" />
+                    <Button
+                        Clicked="OnLetterClick"
+                        HorizontalOptions="Center"
+                        Text="P" />
+                </HorizontalStackLayout>
+                <HorizontalStackLayout HorizontalOptions="Center" Spacing="3">
+                    <Button
+                        Clicked="OnLetterClick"
+                        HorizontalOptions="Center"
+                        Text="A" />
+                    <Button
+                        Clicked="OnLetterClick"
+                        HorizontalOptions="Center"
+                        Text="S" />
+                    <Button
+                        Clicked="OnLetterClick"
+                        HorizontalOptions="Center"
+                        Text="D" />
+                    <Button
+                        Clicked="OnLetterClick"
+                        HorizontalOptions="Center"
+                        Text="F" />
+                    <Button
+                        Clicked="OnLetterClick"
+                        HorizontalOptions="Center"
+                        Text="G" />
+                    <Button
+                        Clicked="OnLetterClick"
+                        HorizontalOptions="Center"
+                        Text="H" />
+                    <Button
+                        Clicked="OnLetterClick"
+                        HorizontalOptions="Center"
+                        Text="J" />
+                    <Button
+                        Clicked="OnLetterClick"
+                        HorizontalOptions="Center"
+                        Text="K" />
+                    <Button
+                        Clicked="OnLetterClick"
+                        HorizontalOptions="Center"
+                        Text="L" />
+                </HorizontalStackLayout>
+                <HorizontalStackLayout HorizontalOptions="Center" Spacing="3">
+                    <Button
+                        Clicked="OnLetterClick"
+                        HorizontalOptions="Center"
+                        Text="Z" />
+                    <Button
+                        Clicked="OnLetterClick"
+                        HorizontalOptions="Center"
+                        Text="X" />
+                    <Button
+                        Clicked="OnLetterClick"
+                        HorizontalOptions="Center"
+                        Text="C" />
+                    <Button
+                        Clicked="OnLetterClick"
+                        HorizontalOptions="Center"
+                        Text="V" />
+                    <Button
+                        Clicked="OnLetterClick"
+                        HorizontalOptions="Center"
+                        Text="B" />
+                    <Button
+                        Clicked="OnLetterClick"
+                        HorizontalOptions="Center"
+                        Text="N" />
+                    <Button
+                        Clicked="OnLetterClick"
+                        HorizontalOptions="Center"
+                        Text="M" />
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+
+        </FlexLayout>
+    </ScrollView>
+
+</ContentPage>
